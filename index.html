@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Визитка Junior QA Ловянова</title>
+<style>
+
+body {
+font-size: 20pt; /* размер шрифта */
+margin: 50px; /*отступ по краям */
+background-image: url("img/kirp.jpg");  /*  фон */
+}
+
+ul.abc {
+margin: 0; /* Обнуляем значение отступов */
+padding: 30px; /* Значение полей */
+}
+
+ul.abc li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 30px; /* Отступ слева */
+    border: 2px solid #747375; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+    background-color: #bbb9bde0; /* Цвет фона слоя */
+    text-align: center; /* выравнивание текста по центру */
+    font-size: 20pt; /* размер шрифта */
+}
+
+.foto {
+padding: 0px; /* отступ между краем фона элемента и его содержимым */
+margin: 50px; /*отступ между краем фона одного блочного элемента и краем фона другого блочного элемента*/
+float: left;
+}
+
+.clear {
+    clear: left; /* Отмена обтекания */
+   } 
+.name {
+font-size: 30pt;
+float: left;
+margin: 50px;
+}
+
+.infa {
+text-indent: 15pt; /*отступ первой строки (красная строка)*/
+}
+</style>
+
+
+  </head>
+  <body>
+   
+
+<ul class="abc">
+    <li> <a href="second.html#cont" style="color: black"> Контакты </a></li>
+
+    <li> <a href="second.html#sert" style="color: black"> Сертификаты </a></li>
+
+    <li> <a href="second.html#rezum" style="color: black"> Резюме </a></li>
+
+    <li> <a href="second.html#ssil" style="color: black"> Мои ссылки </a></li>
+</ul>
+   
+
+<main>
+<div class="foto">
+     <p>
+     <img src="img/avka.jpg" alt="Аватарка" width="450" >
+     </p>
+
+</div>
+    <section class= "name">
+      <h1>Ловянова Ольга</h1>
+      <h3>Junior QA Engineer</h3>
+    </section>
+
+<div class="clear">
+    <section class="infa">
+      <p>Всем привет! Недавно я прошла курс "Тестирование ПО" в <a href="http://itsuhorukov.ru/">IT-Академии Алексея Сухорукова</a>.
+          Я получила все необходимые навыки и знания , чтобы стать Junior QA Engineer</p>
+    </section>
+
+    <section>
+      <h3>Мои навыки</h3>    
+     <ul>
+        <li> Основы HTMLиCSS</li>
+        <li> Система контроля версий (GIT)</li>
+        <li> Составление тест-кейсов в TestRail</li>
+        <li> Работа с багтрекинговыми системами Jira и Youtrack</li>
+        <li> Понимание принципов работы API</li>
+           
+        </ul>
+     </section>
+
+</main>
+
+   
+  </div>
+  </body>
+
+</html>
